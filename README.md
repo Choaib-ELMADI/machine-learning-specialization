@@ -12,7 +12,13 @@ The Machine Learning Specialization is an updated and expanded version of Andrew
 
 ### Course 1| Supervised Machine Learning: Regression and Classification
 
-Learn the fundamentals of regression, classification, and neural networks.
+Learn the fundamentals of predictions, regression, and classification tasks. There are 3 modules in this course:
+
+1. **Week 1|** Introduction to Machine Learning
+
+2. **Week 2|** Regression with multiple input variables
+
+3. **Week 3|** Classification
 
 ### Course 2| Advanced Learning Algorithms
 
