@@ -18,3 +18,24 @@
         > Install the required libraries: pip install notebook ipykernel
         > Install the Jupyter extension in VS Code
         > Open or create a ".ipynb" file in VS Code
+
+3. Working with Python Virtual Environments:
+    * Using a virtual environment helps isolate your project dependencies and avoid conflicts.
+
+    * Step 1: Create a virtual environment
+        > python -m venv MyVenvName
+
+    * Step 2: Activate the virtual environment
+        > On Windows: MyVenvName\Scripts\activate
+        > On Mac\Linux: source MyVenvName/bin/activate
+
+    * Step 3: Add the virtual environment to Jupyter
+        > Install necessary libraries...
+        > python -m ipykernel install --user --name=MyVenvName --display-name "Python (MyVenvName)"
+
+    * Step 4: Use the virtual environment in Jupyter
+        > Launch Jupyter Notebook
+        > In the notebook interface, select the kernel corresponding to your virtual environment
+
+    * Step 5: Deactivate the virtual environment
+        > deactivate
