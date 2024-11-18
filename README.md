@@ -2,7 +2,13 @@
 
 # Machine Learning Specialization
 
-Welcome to my repository for the `Machine Learning Specialization` on Coursera, offered by `DeepLearning.AI` in collaboration with `Stanford Online`. This repository contains my notes, code implementations, and projects from the 3-course series.
+This repository showcases my journey through the `Machine Learning Specialization` on Coursera, offered by `DeepLearning.AI` in collaboration with `Stanford Online`. It contains notes, code implementations, and projects from the 3-course series.
+
+<div align="center">
+
+![Machine Learning Specialization](./Images/ml-specialization.png)
+
+</div>
 
 ## About the Specialization
 
