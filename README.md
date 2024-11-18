@@ -16,21 +16,19 @@ The Machine Learning Specialization is an updated and expanded version of Andrew
 
 ## Courses in the Specialization
 
-### Course 1| Supervised Machine Learning: Regression and Classification
+### `Course 1|` Supervised Machine Learning: Regression and Classification
 
 Learn the fundamentals of predictions, regression, and classification tasks. There are 3 modules in this course:
 
-1. **Week 1|** Introduction to Machine Learning
+- `Week 1|` Introduction to Machine Learning
+- `Week 2|` Regression with multiple input variables
+- `Week 3|` Classification
 
-2. **Week 2|** Regression with multiple input variables
-
-3. **Week 3|** Classification
-
-### Course 2| Advanced Learning Algorithms
+### `Course 2|` Advanced Learning Algorithms
 
 Explore decision trees, ensemble methods, and neural network training.
 
-### Course 3| Unsupervised Learning, Recommenders, Reinforcement Learning
+### `Course 3|` Unsupervised Learning, Recommenders, Reinforcement Learning
 
 Dive into clustering, anomaly detection, recommender systems, and deep reinforcement learning.
 
