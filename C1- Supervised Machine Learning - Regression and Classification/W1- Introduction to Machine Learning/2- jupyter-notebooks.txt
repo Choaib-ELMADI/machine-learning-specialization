@@ -5,3 +5,16 @@
     * Jupyter Notebooks are composed of two types of cells:
         . Markdown cells: used to write text, add headings, and format content using Markdown.
         . Code cells: used to write and run code, displaying outputs directly below the cell.
+
+2. Working with Jupyter Notebook:
+    * To use Jupyter Notebook, you need to install the necessary libraries and tools.
+
+    * Option 1: For Browser-Based Use
+        > Install Jupyter Notebook: pip install notebook
+        > Start Jupyter Notebook: jupyter notebook
+        > You can create, edit, and manage ".ipynb" files directly in the browser
+
+    * Option 2: For VS Code Integration
+        > Install the required libraries: pip install notebook ipykernel
+        > Install the Jupyter extension in VS Code
+        > Open or create a ".ipynb" file in VS Code
