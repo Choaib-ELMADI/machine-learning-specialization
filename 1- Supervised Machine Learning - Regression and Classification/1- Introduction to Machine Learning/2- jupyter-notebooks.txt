@@ -1,0 +1,7 @@
+1. What is Jupyter Notebook?
+    * Jupyter Notebook is an open-source tool that allows you to create and share documents that combine code, text, visualizations, and interactive outputs.
+    * It is widely used for data analysis, machine learning, and scientific computing.
+
+    * Jupyter Notebooks are composed of two types of cells:
+        . Markdown cells: used to write text, add headings, and format content using Markdown.
+        . Code cells: used to write and run code, displaying outputs directly below the cell.
