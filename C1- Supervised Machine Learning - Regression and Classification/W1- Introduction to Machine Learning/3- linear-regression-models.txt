@@ -6,4 +6,5 @@
     * Training Example: a single data point in the dataset, represented as a pair (x, y).
 
 2. Univariate Linear Regression:
-    * It's a linear regression algorithm with one variable (single feature x).
+    * It's a linear regression algorithm with one variable (single feature x):
+        . f_w,b(x) = w * x + b
