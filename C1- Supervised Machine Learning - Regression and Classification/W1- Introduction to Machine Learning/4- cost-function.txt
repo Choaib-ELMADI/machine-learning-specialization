@@ -11,8 +11,3 @@
     * The slope determines the steepness or angle of the line on the graph:
         . In the function f(x) = w * x + b, the value of w represents the slope.
         . The slope is calculated as the change in y divided by the change in x (Δy/Δx).
-
-2. 
-
-3. 
-
