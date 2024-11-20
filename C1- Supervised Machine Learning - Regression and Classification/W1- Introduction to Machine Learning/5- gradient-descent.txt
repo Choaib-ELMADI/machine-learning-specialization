@@ -1,0 +1,12 @@
+1. What is Gradient Descent?
+    * Gradient descent is an optimization algorithm used to minimize a function, such as a cost function in machine learning:
+        . It systematically adjusts the parameters (w, b) to find the values that result in the smallest possible cost.
+        . It is widely used across machine learning, including for training advanced models like "deep learning networks".
+
+2. Implementing Gradient Descent:
+    * Learning rate is a small positive value that determines the step size for updating the weights:
+        . A smaller learning rate ===> slower learning
+        . A larger one ===> can cause instability
+
+    * The derivative of the cost function with respect to a parameter shows the direction of change of the cost:
+        . The slope of a function at a point is the derivative of this function at this point.
