@@ -14,3 +14,6 @@
     * Gradient descent takes smaller steps as it approaches a local minimum:
         . This happens because the derivative (slope) decreases near the minimum.
         . Smaller derivatives --> Smaller update steps, even if the learning rate is fixed.
+
+3. Batch Gradient Descent:
+    * Batch gradient descent is a variant of gradient descent where the algorithm computes updates by considering all the training examples at each step.
