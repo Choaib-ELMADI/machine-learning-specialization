@@ -1,0 +1,9 @@
+1. Multiple Linear Regression:
+    * It's a linear regression algorithm with multiple variables (multiple features X = (x_1, x_2, ...)):
+        . f_w,b(X) = w_1 * x_1 + w_2 * x_2 + ... + b
+
+2. Feature Notation:
+    * X_j represents the j-th feature (size or number of bedrooms or ...).
+    * n is the total number of features.
+    * X^i vector of features for the i-th training example, [1000, 4, ...] for size, number of bedrooms, ...
+    * X^i_j specifies the j-th feature in the i-th training example.
