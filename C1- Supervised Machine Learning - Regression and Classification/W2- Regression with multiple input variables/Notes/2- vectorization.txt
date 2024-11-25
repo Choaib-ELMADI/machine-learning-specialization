@@ -1,0 +1,8 @@
+1. What is Vectorization?
+    * Vectorization is a technique in programming that allows you to write shorter and more efficient code using modern linear algebra libraries and parallel hardware like GPUs.
+    * It enables operations on entire arrays or vectors of data in a single step, rather than processing elements one by one.
+
+2. How Vectorization Works?
+    * Vectorization works by performing multiple calculations in parallel instead of one at a time.
+    * For example, instead of updating parameters or computing values sequentially in a loop, vectorized code processes entire arrays in a single step.
+    * This parallelism makes computations much faster, especially for large datasets or machine learning models with many features.
