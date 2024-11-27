@@ -1,0 +1,4 @@
+1. Normal Equation:
+    * The normal equation is a method for solving linear regression without using iterations like gradient descent.
+    * It uses linear algebra to directly compute the optimal values for w and b in one step.
+    * However, it is limited to linear regression, and can be slow for large datasets.
