@@ -1,0 +1,16 @@
+1. What is Feature Scaling?
+    * Feature scaling is the process of adjusting different features so they have similar ranges of values.
+    * This helps gradient descent work faster and more efficiently by preventing features with larger ranges from dominating the ones with smaller ranges.
+
+2. Feature Scaling Implementation:
+    * One way to implement feature scaling is to divide the different values in a feature by the maximum value in that feature.
+
+    * Another method to implement this is called: "Mean Normalization":
+        . The goal from this method is to rescale the values in a feature to be around 0, usually between -1 and 1.
+        . The mean normalization method has two steps:
+            - Find the average (mean) value for the feature
+            - Calculate the scaled values: new_x = (old_x - mean) / (max - min)
+
+    * The third way to implement feature scaling is called: "Z-score Normalization":
+        . To implement z-score normalization, we need to calculate the mean and standard deviation values for each feature.
+        . Then, update the values in that feature: new_x = (old_x - mean) / standard deviation
