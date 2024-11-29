@@ -1,0 +1,5 @@
+1. Choosing the Learning Rate:
+    * A larger value for the learning rate may cause instability in the learning curve (oscillating).
+    * A smaller value may cause the model to learn very slowly.
+
+    * A bug in the code may also cause some problems to the model learning.
