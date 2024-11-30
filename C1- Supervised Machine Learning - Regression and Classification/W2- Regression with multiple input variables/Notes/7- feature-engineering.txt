@@ -1,0 +1,6 @@
+1. Why Feature Engineering?
+    * The choice of features can have a huge impact on your model's performance.
+    * That's why it's important to engineer the right features to feed into your model.
+
+2. How to Implement Feature Engineering?
+    * Creating new features by transforming or combining original features.
