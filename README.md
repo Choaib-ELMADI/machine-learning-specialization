@@ -51,7 +51,7 @@ By completing this specialization, I aim to:
 ## Technologies Used
 
 - **Programming Language**: Python
-- **Libraries**: NumPy, scikit-learn, TensorFlow
+- **Libraries**: NumPy, Matplotlib, Scikit-learn
 - **Tools**: Jupyter Notebook, Git
 
 ## Acknowledgements

@@ -1,0 +1,3 @@
+1. Polynomial Regression Implementation:
+    * Polynomial regression is a type of supervised learning that helps fit not straight lines but curves.
+    * It can be implemented using multiple linear regression combined with feature engineering.
