@@ -1,0 +1,7 @@
+1. Motivation:
+    * Linear regression is not a good algorithm for classification problems.
+
+    * Classification is a type of supervised learning that predicts a label from a limited set of possible categories (classes):
+        . If this set has only two categories, then it is called: "binary classification".
+        . In binary classification, the two classes are usually refered to as: "negative class" and "positive class".
+        . The terms "negative" and "positive" do not necessarily mean "bad" and "good", but "absence" and "presence".
