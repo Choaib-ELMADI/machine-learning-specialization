@@ -1,6 +1,11 @@
-1. 
+1. What is Logistic Regression?
+    * Logistic regression is a type of classification algorithms that fits a curve into your training set.
+    * Fitting the curve into the dataset is done using a function called: "sigmoid function" or "logistic function":
+        . g(z) = 1 / (1 + e^(-z)) ==> 0 < g(z) < 1
 
-2. 
+    * In two steps, the logistic regression model inputs a feature x and outputs a number between 0 and 1:
+        . z = w.x + b
+        . g(z) = 1 / (1 + e^(-z)) = 1 / (1 + e^(-(w.x + b)))
 
-3. 
-
+2. Interpretation of Logistic Regression Output:
+    * A way to think about the logistic regression output is considering it the probability of having a class "1" for a certain input x.
