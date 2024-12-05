@@ -1,0 +1,7 @@
+1. What is a Decision Boundary?
+    * A decision boundary is a line defined using the following equation:
+        . z = w.x + b = 0
+
+    * It's a neutral line about the output being a "0" or a "1".
+
+    * It's important to note that decision boundaries are not always straight lines. They can be circles, curves...
