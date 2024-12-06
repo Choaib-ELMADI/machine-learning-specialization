@@ -1,0 +1,10 @@
+1. Logistic Regression Cost Function:
+    * The cost function mesures how well an algorithm (model) is performing.
+    * The squared error cost function is not ideal for logistic regression algorithms, as it's shape is not convex.
+
+    * A loss function is a function of the predicted label and the target value:
+        . It mesures how a model is performing over one training example.
+        . The sum of the losses over all the training examples is what makes the cost function.
+
+    * The cost function is defined by:
+        . J(w, b) = (1 / m) * ∑ᵢ L(f_w,b(xⁱ), yⁱ), where L is the loss function.
