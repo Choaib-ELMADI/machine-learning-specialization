@@ -1,0 +1,13 @@
+1. What is Underfitting and Overfitting?
+    * Underfitting is when a model does not fit the training data very well:
+        . There is a clear pattern in the data that the model is unable to capture.
+        . Another naming for this issue is the model has a "high bias".
+
+    * Overfitting is when a model fits the training data extremely well but can't be generalized for new data points:
+        . Another naming for this issue is the model has a "high variance".
+
+2. Addressing Overfitting:
+    * There are many ways to address the problem of overfitting:
+        . Collect more training examples
+        . Select features to include or exclude, AKA: Feature selection
+        . Reduce size of parameters, AKA: Regularization
