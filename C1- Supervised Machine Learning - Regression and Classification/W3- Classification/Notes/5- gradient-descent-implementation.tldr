@@ -109,19 +109,42 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 515.2453027935675,
+			"y": 315.0965335513591,
+			"rotation": 6.1086523819801535,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yB3YxxpsFUEzOeQOn8tEL",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "s",
+				"w": 205.15000915527344,
+				"text": "Simultaneous updates",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a32il",
+			"typeName": "shape"
+		},
+		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 630.996826171875,
-			"y": 361.48753452301025,
-			"lastActivityTimestamp": 1733610678260,
+			"x": 1284.9968141555782,
+			"y": 127.71997712392181,
+			"lastActivityTimestamp": 1733655728848,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:color": "red",
-				"tldraw:size": "s"
+				"tldraw:color": "black",
+				"tldraw:size": "m"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -167,9 +190,7 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:yB3YxxpsFUEzOeQOn8tEL"
-			],
+			"selectedShapeIds": [],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -180,34 +201,103 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": -161.79681396484375,
-			"y": 254.75001430511475,
+			"x": -1006.5967897415156,
+			"y": 488.5175717042032,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"x": 515.2453027935675,
-			"y": 315.0965335513591,
-			"rotation": 6.1086523819801535,
+			"x": 1181.5999755859375,
+			"y": -54.93751335144043,
+			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:yB3YxxpsFUEzOeQOn8tEL",
+			"id": "shape:Kb-Hn2gMBnCyFOQ6SH-J2",
 			"type": "text",
 			"props": {
-				"color": "red",
-				"size": "s",
-				"w": 205.15000915527344,
-				"text": "Simultaneous updates",
+				"color": "orange",
+				"size": "l",
+				"w": 282.25,
+				"text": "Same concepts:",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
 				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "a32il",
+			"index": "a4BRB",
+			"typeName": "shape"
+		},
+		{
+			"x": 1181.5999755859375,
+			"y": 13.162487030029297,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PIycgmMx2y2WPPMKSRuSO",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 543.25,
+				"text": ". Monitor gradient descent (learning curve)",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a56p2",
+			"typeName": "shape"
+		},
+		{
+			"x": 1181.5999755859375,
+			"y": 46.1624870300293,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0YI6g8kngnbjyaOjKZcnp",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 348.13751220703125,
+				"text": ". Vectorized implementation",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a64zK",
+			"typeName": "shape"
+		},
+		{
+			"x": 1181.5999755859375,
+			"y": 79.1624870300293,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:b2Ou2KPzgPCDiz7oAWpPh",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 207.81251525878906,
+				"text": ". Feature scaling",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a7AVz",
 			"typeName": "shape"
 		}
 	]
