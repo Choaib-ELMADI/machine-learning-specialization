@@ -24,6 +24,8 @@ Learn the fundamentals of predictions, regression, and classification tasks. The
 - `Week 2|` Regression with multiple input variables
 - `Week 3|` Classification
 
+**Earned Certificate**: [Supervised Machine Learning: Regression and Classification](https://coursera.org/share/789489cb15a016ca08d5d4377bca23af)
+
 ### `Course 2|` Advanced Learning Algorithms
 
 Explore decision trees, ensemble methods, and neural network training.
