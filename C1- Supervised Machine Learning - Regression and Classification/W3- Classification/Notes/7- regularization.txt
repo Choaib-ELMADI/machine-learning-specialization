@@ -1,0 +1,4 @@
+1. What is Regularization?
+    * Regularization is one of the techniques used to address overfitting problems.
+    * It insures to include parameters for all the features with smaller impacts for some parameters.
+    * Regularization works by adding a penalty to the cost function to discourage large parameter values.
