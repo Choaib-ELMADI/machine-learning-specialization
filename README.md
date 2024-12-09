@@ -28,7 +28,12 @@ Learn the fundamentals of predictions, regression, and classification tasks. The
 
 ### `Course 2|` Advanced Learning Algorithms
 
-Explore decision trees, ensemble methods, and neural network training.
+Explore decision trees, ensemble methods, and neural network training. There are 4 modules in this course:
+
+- `Week 1|` Neural Networks
+- `Week 2|` Neural network training
+- `Week 3|` Advice for applying machine learning
+- `Week 4|` Decision trees
 
 ### `Course 3|` Unsupervised Learning, Recommenders, Reinforcement Learning
 
