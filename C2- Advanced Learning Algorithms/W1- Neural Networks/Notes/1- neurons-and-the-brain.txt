@@ -1,0 +1,14 @@
+1. What is a Neuron?
+    * The objective behind inventing neural networks was to build a software that mimics the human brain and how it thinks.
+
+    * Neurons are the basic building block of the brain and the entire nervous system.
+    * They are specialized cells responsible for transmitting and processing information through electrical and chemical signals.
+    * Neurons work together in networks to control all brain functions.
+
+    * The artificial neural network uses a simplified mathematical model of the biological neuron.
+
+2. Why Now?
+    * Neural networks have been around for decades and recently taken off due to:
+        . Data explosion: large amounts of data are available.
+        . Scalability of NNs: neural networks can improve performance as they process more data.
+        . Hardware advancements: particularly GPUs.
