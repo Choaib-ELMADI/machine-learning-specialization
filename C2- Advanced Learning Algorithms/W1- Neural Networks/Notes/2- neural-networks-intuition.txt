@@ -1,0 +1,17 @@
+1. What is an Activation Function?
+    * Activation is a mathematical function used in neural networks to decide how much a neuron is sending a "high" output to other neurons downstream from it.
+    * It transforms the input signal of a neuron into an output signal.
+    * Logistic regression algorithms (units) can be thought of as a simplified model of a single neuron in the brain.
+
+2. What is a Layer?
+    * A layer is a grouping of neurons that takes same or similar input features and outputs some numbers.
+    * Layers can have multiple neurons or a single one.
+
+    * There are 3 types of layers:
+        . Input layer: inputs the features into the neural network, "not an actual layer".
+        . Hidden layers: because they hide the computation behind the scenes.
+        . Output layer: the output of the final neuron is the output probability predicted by the network.
+
+    * Neural networks with multiple hidden layers are also called "multilayer perceptrons".
+
+    * How many hidden layers to use and how many neurons in each hidden layer are questions of the neural network architecture.
