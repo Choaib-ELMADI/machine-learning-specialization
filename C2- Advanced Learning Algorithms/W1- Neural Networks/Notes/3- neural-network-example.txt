@@ -1,0 +1,10 @@
+1. Example: Recognizing Images:
+    * In computers, images are represented by pixels in 2D arrays (grids, matrices).
+    * Each pixel has an intensity value ranging from 0 to 255.
+    * This matrix of pixel intensity values is converted into 1D vector to be fed into a neural network (1st hidden layer).
+
+    * The first hidden layer's neurons try to detect lines, edges and simples shapes.
+
+    * The next hidden layer learns to group the previous short lines and edges.
+
+    * ...
