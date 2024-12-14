@@ -1,0 +1,9 @@
+1. What is a Layer?
+    * Layers of neurons are the fundamental building blocks of most neural networks.
+
+2. How Does a Layer Work?
+    * Each hidden layer inputs a vector of numbers and outputs another vector.
+    * These input numbers are inputs to each neuron in this layer.
+    * Each of these neurons has its own parameters "w" and "b", and is implementing a logistic regression unit (function) to output an activation "a".
+
+    * The number of neurons in a layer is exactly the number of its outputs.
