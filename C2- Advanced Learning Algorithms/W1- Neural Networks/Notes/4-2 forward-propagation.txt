@@ -1,0 +1,4 @@
+1. What is Forward Propagation?
+    * The term "inference" means prediction, making inferences is making predictions.
+
+    * Forward propagation is an algorithm in neural networks where input data is passed through the layers step by step to make predictions.
