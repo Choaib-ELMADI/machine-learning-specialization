@@ -7,4 +7,12 @@
         . Dense: a fully connected layer where each neuron is connected to every neuron in the previous layer.
 
 3. Data in TensorFlow:
-    * 
+    * With TensorFlow, the convention is to use matrices to represent data:
+        > np.array([200.0, 17])                 ==> 1-D vector, a normal array
+        > np.array([[200.0, 17]])               ==> 1x2 matrix, 1 row and 2 columns
+        > np.array([[200.0], [17]])             ==> 2x1 matrix, 2 rows and 1 column
+        > np.array([[20, 30, 40], [2, 3, 4]])   ==> 2x3 matrix, 2 rows and 3 columns
+
+    * This representation lets TensorFlow be more computational efficient.
+
+    * A "Tensor" is a data type created by the TensorFlow team, and it's a way to represent matrices and handle computations efficiently.
