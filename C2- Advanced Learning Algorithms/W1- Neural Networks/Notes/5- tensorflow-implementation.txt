@@ -16,3 +16,14 @@
     * This representation lets TensorFlow be more computational efficient.
 
     * A "Tensor" is a data type created by the TensorFlow team, and it's a way to represent matrices and handle computations efficiently.
+
+4. Building a Neural Network:
+    * Sequential:
+        . A linear stack of layers where each layer has exactly one input tensor and one output tensor.
+        . It simplifies building models layer by layer, instead of manually passing data from one layer to another.
+
+    * model.compile(): Prepares the model for training by specifying the optimizer, loss function, and metrics.
+
+    * model.fit(): Trains the model on the provided data for a specified number of epochs.
+
+    * model.predict(): Generates predictions on new input data using the trained model.
