@@ -1,0 +1,10 @@
+1. What is TensorFlow?
+    * TensorFlow is a framework for implementing deep learning algorithms, built by Google.
+    * PyTorch is another similar tool, built by Meta AI.
+
+2. Layer Types in TensorFlow:
+    * TensorFlow provides a wide variety of layer types, including:
+        . Dense: a fully connected layer where each neuron is connected to every neuron in the previous layer.
+
+3. Data in TensorFlow:
+    * 
