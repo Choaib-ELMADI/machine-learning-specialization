@@ -22,6 +22,15 @@
         . A linear stack of layers where each layer has exactly one input tensor and one output tensor.
         . It simplifies building models layer by layer, instead of manually passing data from one layer to another.
 
+    * Input(shape=(, )): Specifies the expected shape of the input.
+
+    * Epochs: An epoch is one complete pass through the entire training dataset.
+
+    * Batches:
+        . Instead of processing the entire dataset at once, it is divided into smaller groups called batches.
+        . A batch contains a subset of the data, typically 32 examples by default in TensorFlow.
+        . Processing data in batches improves efficiency, especially for large datasets.
+
     * model.compile(): Prepares the model for training by specifying the optimizer, loss function, and metrics.
 
     * model.fit(): Trains the model on the provided data for a specified number of epochs.
