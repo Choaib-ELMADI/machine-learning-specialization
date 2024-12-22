@@ -25,7 +25,7 @@ def dense(a_in, W, b):
     return a_out
 
 
-def sequential(x):
+def sequential(x, W1, b1, W2, b2, W3, b3, W4, b4):
     """
     Defines a linear stack of layers for a neural network
     """
