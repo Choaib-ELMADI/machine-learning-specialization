@@ -1,0 +1,6 @@
+1. What is ANI and AGI?
+    * ANI stands for Artificial Narrow Intelligence.
+    > Self-driving car, web search...
+
+    * AGI stands for Artificial General Intelligence.
+    > Do anything a human can do.
