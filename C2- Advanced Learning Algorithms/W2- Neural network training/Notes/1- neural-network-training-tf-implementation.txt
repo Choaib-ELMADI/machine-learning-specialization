@@ -1,6 +1,24 @@
 1. Training a Neural Network Steps:
-    1/ Create a model object: Sequential, Dense, Units, Activation, ...
+    * Step 1: Create a model object: Sequential, Dense, Units, Activation, ...
+    * Step 2: Compile the model: Loss function, ...
+    * Step 3: Fit the model: Training data, Epochs, ...
 
-    2/ Compile the model: Loss function, ...
+2. Step 1 in Details:
+    * This step specifies how to compute the output given an input and some parameters, like:
+        . z = w * x + b
+        . y = 1 / (1 + e^(-z))
 
-    3/ Fit the model: Training data, Epochs, ...
+    * In this step, we specify the entire architecture of the neural network.
+
+3. Step 2 in Details:
+    * This step specifies the loss and the cost functions:
+        . Binary Cross Entropy AKA logistic loss
+        . Mean Square Error
+        . ...
+
+4. Step 3 in Details:
+    * This step implements an algorithm to minimize the cost:
+        . Gradient Descent
+        . ...
+
+    * Computing the gradient descent requires computing the partial derivatives. The "back-propagation" algorithm is used for this.
