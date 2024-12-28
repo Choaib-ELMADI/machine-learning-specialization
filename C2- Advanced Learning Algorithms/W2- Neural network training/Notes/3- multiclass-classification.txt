@@ -1,0 +1,2 @@
+1. Multiclass Classification:
+    * Multiclass classification refers to classification problems with multiple output labels.
