@@ -1,0 +1,28 @@
+1. Sigmoid Activation Function:
+    * The sigmoid activation function is defined as:
+        . g(z) = 1 / (1 + e^(-z)) with z = w * x + b
+
+    * Its output is between 0 and 1.
+
+2. ReLU Activation Function:
+    * ReLU stands for Rectified Linear Unit and it's defined as:
+        . g(z) = 0 if z < 0 else g(z) = z
+        or
+        . g(z) = max(0, z)
+
+    * Its output is between 0 and +infinity.
+
+3. Linear Activation Function:
+    * The linear activation function is defined as:
+        . g(z) = z = w * x + b
+
+    * Its also known as if we didn't use any activation function.
+
+4. Softmax Activation Function:
+    * 
+
+5. Other Activation Functions:
+    * Tan H Activation Function
+    * LeakyReLU Activation Function
+    * Swish Activation Function
+    * ...
