@@ -1,2 +1,7 @@
 1. Multiclass Classification:
     * Multiclass classification refers to classification problems with multiple output labels.
+
+2. Softmax Regression:
+    * Softmax regression algorithm is a generalization of the logistic regression algorithm:
+        . Logistic regression is a binary classification algorithm.
+        . Softmax regression is a multiclass classification algorithm.
