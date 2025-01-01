@@ -19,7 +19,7 @@
     * Its also known as if we didn't use any activation function.
 
 4. Softmax Activation Function:
-    * 
+    * The softmax activation function is used for multiclass classification problems.
 
 5. Other Activation Functions:
     * Tan H Activation Function

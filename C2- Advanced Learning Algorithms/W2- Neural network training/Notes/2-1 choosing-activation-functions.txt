@@ -1,7 +1,8 @@
 1. Activation Function for Output Layer:
     * Based on the target label, there is one natural choice for the activation function:
-        . For binary classification --> Sigmoid function (gives the probability of being 1 or 0)
-        . For regression            --> Linear activation function
+        . For binary classification     --> Sigmoid activation function (gives the probability of being 1 or 0)
+        . For multiclass classification --> Softmax activation function
+        . For regression                --> Linear activation function
         . ...
 
 2. Activation Function for Hidden Layers:

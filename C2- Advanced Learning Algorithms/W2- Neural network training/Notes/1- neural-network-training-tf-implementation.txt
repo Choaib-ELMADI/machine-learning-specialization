@@ -14,6 +14,7 @@
     * This step specifies the loss and the cost functions:
         . Binary Cross Entropy AKA logistic loss
         . Mean Square Error
+        . Sparse Categorical Cross Entropy
         . ...
 
 4. Step 3 in Details:
