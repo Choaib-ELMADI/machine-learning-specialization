@@ -1,0 +1,3 @@
+1. Multilabel Classification:
+    * Multilabel classification is when multiple labels are available in an image, for example, at the same time.
+    * In multilabel classification, for a single input x, there could be multiple outputs y1, y2, ...
