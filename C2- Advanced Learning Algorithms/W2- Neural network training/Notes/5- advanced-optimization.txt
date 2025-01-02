@@ -1,0 +1,12 @@
+1. Optimization Algorithms:
+    * Optimization algorithms are used to minimize the cost in a learning algorithm.
+    * Gradient descent is the first optimization algorithm that we looked at.
+
+2. Adam Algorithm:
+    * Adam stands for ADAptive Moment estimation.
+    * Adam is an optimization algorithm that can adjust the learning rate "alpha" automatically based on the computation requirements.
+
+3. Adam Algorithm Intuition:
+    * The Adam algorithm doesn't use a single global learning rate, but a different learning rate for each parameter.
+    * If a parameter keeps moving in the same direction, Adam algorithm will increase the learning rate associated with this parameter.
+    * If it's oscillating, then the associated learning rate will be reduced.
