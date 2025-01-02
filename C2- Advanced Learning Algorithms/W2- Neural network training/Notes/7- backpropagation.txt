@@ -1,0 +1,5 @@
+1. Backpropagation Intuition:
+    * Backpropagation algorithm is used to compute derivatives for cost optimization.
+    * If "w" increases by a very tiny value "epsilon", then "J(w)" will increase by "k * epsilon", and then "δJ/δw = k".
+
+    * Computation graph...
