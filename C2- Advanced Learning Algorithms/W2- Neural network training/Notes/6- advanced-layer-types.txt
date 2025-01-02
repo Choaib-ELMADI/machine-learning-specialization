@@ -1,0 +1,3 @@
+1. Advanced Layer Types in TensorFlow:
+    * Convolutional Layer: each neuron looks only at a part of the previous layer's outputs.
+    > CNN stands for Convolutional Neural Network and it's a neural network with multiple convolutional layers.
