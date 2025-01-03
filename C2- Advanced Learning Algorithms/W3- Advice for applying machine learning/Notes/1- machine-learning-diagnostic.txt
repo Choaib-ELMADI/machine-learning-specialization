@@ -1,0 +1,7 @@
+1. Machine Learning Diagnostic:
+    * A diagnostic is a test that you run to gain insight into what is / isn't working with a learning algorithm, to gain guidance into improving its performance.
+
+2. Model Evaluation and Selection:
+    * Split the data set into a training set and a test set, then compute the training and test errors.
+
+    * Split the data set into a training, a cross validation and a test sets, then compute the training, validation and test errors.
