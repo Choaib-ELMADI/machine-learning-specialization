@@ -1,0 +1,22 @@
+1. Bias and Variance:
+    * High bias refers to underfitting issue:
+        . J_train is high
+        . J_cv is high
+
+    * High variance refers to overfitting issue:
+        . J_train is low
+        . J_cv is high
+
+2. Regularization and Bias/Variance:
+    * A high value for the regularization parameter will cause underfitting.
+    * A small value for the regularization parameter will cause overfitting.
+
+3. Establishing a Baseline Level of Performance:
+    * We consider that we have a high bias when the gap between the baseline performance and the training error is larger.
+    * We consider that we have a high variance when the gap between the the training error and the cross validation error is larger.
+
+4. Learning Curves:
+    * A learning curve is a graph of cost error and training set size.
+
+    * For high bias, more training examples wont help improving the model's performance.
+    * For high variance, more training examples will actually help improve the model's performance.
