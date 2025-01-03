@@ -3,9 +3,19 @@
         . J_train is high
         . J_cv is high
 
+    * To fix a high bias problem, you can:
+        - try adding polynomial features
+        - try getting additional features
+        - try decreasing the regularization parameter
+
     * High variance refers to overfitting issue:
         . J_train is low
         . J_cv is high
+
+    * To fix a high variance problem, you can:
+        - try increasing the regularization parameter
+        - try smaller sets of features
+        - get more training examples
 
 2. Regularization and Bias/Variance:
     * A high value for the regularization parameter will cause underfitting.
