@@ -1,0 +1,29 @@
+1. Iterative Loop of ML Development:
+    * Step 1: Choose architecture (model, data, etc)
+    * Step 2: Train model
+    * Step 3: Diagnostics (bias, variance and error analysis), then Step 1
+
+2. Error Analysis:
+    * For example, for a cross validation set of 500 training examples, the algorithm misclassifies 100 of them.
+    * Manually examining these 100 examples will help detect the issue and resolve the problem.
+
+3. Adding Data:
+    * Add more data of everything
+    * Add more data of the types where error analysis occurred
+    * Data augmentation: modifying existing examples, introducing distortions
+    * Data synthesis: creating new examples
+
+4. Transfer Learning:
+    * Transfer learning is a technique that let's you use data from another task to work with your application.
+        > This is called: supervised pretraining.
+
+    * There are 2 options to implement this:
+        . Only train output layer's parameters
+        . Train all parameters
+        > This is called: fine-tuning.
+
+5. Full Cycle of a ML Project:
+    * Define project scope
+    * Define and collect data
+    * Training, error analysis and iterative improvement
+    * Deploy, monitor and maintain system
