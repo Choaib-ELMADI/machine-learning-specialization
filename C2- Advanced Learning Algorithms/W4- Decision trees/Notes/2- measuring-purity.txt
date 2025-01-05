@@ -1,0 +1,2 @@
+1. What is Entropy?
+    * Entropy is a measure of the impurity of a set of data.
