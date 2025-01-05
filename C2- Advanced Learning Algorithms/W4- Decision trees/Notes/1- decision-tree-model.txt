@@ -1,9 +1,18 @@
-1. Decision Trees Terminology:
+1. Decision Trees:
+    * Decision trees are powerful and widely used in machine learning, particularly in competitions, despite receiving less attention in academia.
+    * The algorithm evaluates multiple possible trees and selects one that performs well on training data while generalizing effectively to new data.
+
+2. Decision Trees Terminology:
     * Root Node: the starting point of the tree, representing the first decision.
     * Decision Nodes: nodes that make decisions based on features and guide the path down the tree.
     * Leaf Nodes: terminal nodes that provide predictions.
 
-2. Learning Process:
+3. How It Works?
+    * Start at the root node and evaluate a feature.
+    * Depending on the feature's value, follow the left or right branch.
+    * Repeat until reaching a leaf node that predicts the output.
+
+4. Learning Process:
     * The process of building a decision tree has a few steps:
         . Decide the feature to use to split on at each node:
             - Maximize purity (or minimize impurity)
