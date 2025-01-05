@@ -1,0 +1,15 @@
+1. Decision Trees Terminology:
+    * Root Node: the starting point of the tree, representing the first decision.
+    * Decision Nodes: nodes that make decisions based on features and guide the path down the tree.
+    * Leaf Nodes: terminal nodes that provide predictions.
+
+2. Learning Process:
+    * The process of building a decision tree has a few steps:
+        . Decide the feature to use to split on at each node:
+            - Maximize purity (or minimize impurity)
+
+        . Stop splitting:
+            - Having a node with 100% one class
+            - Do not exceed the tree's maximum depth
+            - Improvements in purity score are below a threshold
+            - The number of examples in a node is below a threshold
