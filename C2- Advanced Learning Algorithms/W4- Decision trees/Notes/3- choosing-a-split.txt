@@ -1,0 +1,6 @@
+1. The Feature to Split On:
+    * The feature to split on at a node is choosed based on the one that reduces entropy the most.
+    * Entropy reduction is called: "Information Gain":
+        . Information Gain = H(p1_root) - (w_left * H(p1_left) + w_right * H(p1_right))
+
+    * The goal is to maximize this information gain.
