@@ -1,0 +1,7 @@
+1. Categorical Features:
+    * Categorical features are features that can have multiple values.
+    * Splitting data based on a K values categorical feature will generate K branches.
+
+2. One-hot Encoding:
+    * For a categorical feature with K values, we associate (create) K new binary features.
+    * These K binary features combined is the one-hot encoding for this categorical feature (only one is 1, others are 0).
