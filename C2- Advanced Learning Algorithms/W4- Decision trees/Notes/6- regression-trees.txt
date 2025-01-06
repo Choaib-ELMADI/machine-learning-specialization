@@ -1,0 +1,5 @@
+1. Regression with Decision Trees:
+    * Decision trees can also be used for regression tasks, which means to predict a number.
+    * The feature to split on at a node is choosed based on the one that reduces variance the most.
+    * Variance reduction is calculated as:
+        . Variance Reduction = Variance(root) - (w_left * Variance(left) + w_right * Variance(right))
