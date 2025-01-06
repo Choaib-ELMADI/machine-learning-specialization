@@ -1,0 +1,7 @@
+1. What is Tree Ensemble?
+    * Tree ensemble is a collection of decision trees.
+
+2. Why Tree Ensemble?
+    * A single decision tree can be highly sensitive to small changes in the data.
+    * Having multiple decision trees can help resolve this issue.
+    * These decision trees vote to decide the final prediction.

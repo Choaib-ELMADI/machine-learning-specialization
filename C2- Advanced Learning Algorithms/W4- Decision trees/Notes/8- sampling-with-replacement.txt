@@ -1,0 +1,3 @@
+1. What is Sampling with Replacement?
+    * Sampling with replacement is a technique used to build a tree ensemble.
+    * This technique lets us construct new training sets to use to build a new different decision tree.

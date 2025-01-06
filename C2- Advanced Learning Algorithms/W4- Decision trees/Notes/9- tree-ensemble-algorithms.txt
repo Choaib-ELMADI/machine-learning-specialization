@@ -1,0 +1,14 @@
+1. Tree Ensemble Algorithms:
+    * Bagged Decision Tree:
+        . This algorithm uses sampling with replacement (bagging) to create multiple slightly different training sets from the original data.
+        . A decision tree is trained on each new dataset, and the results are combined (usually by voting) to make predictions.
+        . It reduces variance and helps improve model robustness compared to a single decision tree.
+
+    * Random Forest Algorithm: 
+        . Builds on bagged decision trees by adding more randomness during training.
+        . At each decision node, only a random subset of features is considered for splitting, rather than all features.
+        . This increases diversity among the trees, leading to more robust and accurate predictions.
+        . The typical number of trees in a random forest is around 100.
+
+    * Boosted Decision Tree (XGBoost):
+        . 
