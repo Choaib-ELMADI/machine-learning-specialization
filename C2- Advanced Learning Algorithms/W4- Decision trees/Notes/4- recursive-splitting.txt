@@ -1,0 +1,2 @@
+1. Recursive Splitting:
+    * With recursive splitting, the way to build a decision tree is by building other smaller decision trees, in the left and right branches.
