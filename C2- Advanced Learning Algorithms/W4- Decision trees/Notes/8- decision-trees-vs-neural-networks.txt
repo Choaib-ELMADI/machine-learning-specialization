@@ -1,0 +1,11 @@
+1. When to Use Decision Trees?
+    Decision trees and tree ensembles are used with:
+        * Tabular (structured) data
+        * Not recommended for images, audio, and text data
+        * ...
+
+2. When to Use Neural Networks?
+    Neural networks are used with:
+        * Tabular (structured) data
+        * Unstructured data
+        * ...
