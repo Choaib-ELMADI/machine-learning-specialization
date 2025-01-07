@@ -35,6 +35,8 @@ Explore decision trees, ensemble methods, and neural network training. There are
 - `Week 3|` Advice for applying machine learning
 - `Week 4|` Decision trees
 
+**Earned Certificate**: [Advanced Learning Algorithms](https://coursera.org/share/a5be0e2325dc9e4c0dfab17d30719635)
+
 ### `Course 3|` Unsupervised Learning, Recommenders, Reinforcement Learning
 
 Dive into clustering, anomaly detection, recommender systems, and deep reinforcement learning.
