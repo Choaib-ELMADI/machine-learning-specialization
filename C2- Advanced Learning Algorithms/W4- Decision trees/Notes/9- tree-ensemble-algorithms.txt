@@ -11,4 +11,12 @@
         . The typical number of trees in a random forest is around 100.
 
     * Boosted Decision Tree (XGBoost):
-        . 
+        . Builds on bagged decision trees by making it more likely to pick misclassified examples from previously trained trees (not from all examples).
+        . This implementation enables the algorithm to focus more on the regions it's not doing well on yet.
+
+        . XGBoost is a way of implementing boosting.
+        . XGBoost stands for eXtreme Gradient Boosting.
+        . Has built in regularization techniques to prevent overfitting.
+        . It supports both classification and regression tasks with flexible library implementations:
+            > from xgboost import XGBClassifier
+            > from xgboost import XGBRegressor
