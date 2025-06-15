@@ -1,0 +1,12 @@
+1. K-means Cost Function:
+    * Like supervised learning, K-means also minimizes a cost function, called the distortion function.
+    * The algorithm itself (not gradient descent) reduces this cost through alternating steps.
+
+    * The cost function is the average squared distance between each training example x(i) and the centroid ų_c(i) of the cluster it's assigned to.
+    > c(i) is the index of the cluster assigned to point x(i).
+
+2. Each K-means Step Minimizes the Cost:
+    * Assign Points (Update c(i)):
+        . Assign each point to the nearest cluster centroid --> minimizes its squared distance.
+    * Move Centroids (Update ų_k):
+        . Move each centroid to the mean of the points assigned to it --> reduces overall distortion.
