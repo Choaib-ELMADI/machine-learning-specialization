@@ -1,0 +1,15 @@
+1. What is the K-means Algorithm?
+    * K-means is an unsupervised learning algorithm that identifies clusters in a dataset by iteratively assigning data points to groups and refining the center of each group.
+
+2. Initial Step - Random Centroid Selection:
+    * The algorithm begins by randomly selecting K points as initial cluster centroids.
+    * These initial positions are random guesses and may not be optimal.
+
+3. The Two Main Steps in K-means:
+    * Assign points to nearest cluster centroid:
+        . For each data point, check whether it is closer to one centroid or the other.
+        . Assign the point to the cluster with the nearest centroid.
+
+    * Update cluster centroids:
+        . For each cluster, compute the average location (mean) of all the points assigned to it.
+        . Move the centroid to this new average location.

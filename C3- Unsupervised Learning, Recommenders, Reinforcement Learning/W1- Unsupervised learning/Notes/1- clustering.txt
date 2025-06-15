@@ -1,0 +1,6 @@
+1. Unsupervised Learning:
+    * In unsupervised learning, the algorithm only receives the inputs x and tries to discover patterns or structure in the data without known labels.
+
+2. What is Clustering?
+    * Clustering is an unsupervised learning algorithm that groups similar or related data points together.
+    * Unlike supervised learning, clustering does not rely on labeled data (no target outputs y).
