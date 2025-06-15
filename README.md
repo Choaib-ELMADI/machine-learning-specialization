@@ -39,7 +39,11 @@ Explore decision trees, ensemble methods, and neural network training. There are
 
 ### `Course 3|` Unsupervised Learning, Recommenders, Reinforcement Learning
 
-Dive into clustering, anomaly detection, recommender systems, and deep reinforcement learning.
+Learn how to work with data without labels, personalize recommendations, and build agents that learn from interactions. There are 3 modules in this course:
+
+- `Week 1|` Unsupervised learning
+- `Week 2|` Recommender systems
+- `Week 3|` Reinforcement learning
 
 ## Learning Goals
 
