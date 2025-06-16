@@ -1,0 +1,13 @@
+1. No Single Right Answer for K:
+    * In clustering, there's often no "correct" number of clusters.
+
+2. The Elbow Method:
+    * Run K-means for various values of K and plot the distortion cost function J.
+    * If the plot shows a noticeable "elbow", that point might be a good choice for K.
+    * However, in many real applications, the curve smoothly decreases, with no clear elbow, making the method less useful.
+
+3. What Not to Do:
+    * Don't choose K by minimizing J directly.
+
+4. Choose K Based on the Application:
+    * In practice, run K-means with a few different values of K and evaluate which clustering works best for your end goal.
