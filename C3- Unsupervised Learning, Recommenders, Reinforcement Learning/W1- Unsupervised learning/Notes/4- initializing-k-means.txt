@@ -1,0 +1,11 @@
+1. How to Initialize Cluster Centroids?
+    * Common method: randomly pick K training examples and use them as initial centroids.
+    * This is preferred over choosing completely random points in space.
+
+2. Effect of Random Initialization:
+    * Poor initialization can cause K-means to get stuck in local minima, producing suboptimal clusters.
+
+3. Multiple Random Initializations:
+    * Run K-means multiple times (50 ... 1000), each with a new random initialization.
+    * For each run, compute the distortion cost J and keep the clustering with the lowest cost.
+    * This approach significantly increases the chance of finding a better, more meaningful clustering.
