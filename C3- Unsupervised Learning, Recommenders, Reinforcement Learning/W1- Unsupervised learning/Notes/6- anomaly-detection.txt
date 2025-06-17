@@ -1,0 +1,7 @@
+1. Finding Unusual Events:
+    * Anomaly detection is an unsupervised learning algorithm that identifies data points that deviate from normal patterns.
+
+    * How it works:
+        . Train on normal data to learn the distribution of typical feature values.
+        . For a new example, compute the probability p(x) of observing it.
+        . If p(x) < epsilon (a small threshold), flag it as an anomaly.
