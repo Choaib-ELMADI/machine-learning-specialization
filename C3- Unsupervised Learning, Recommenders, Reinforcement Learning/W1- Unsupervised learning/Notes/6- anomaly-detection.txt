@@ -5,3 +5,24 @@
         . Train on normal data to learn the distribution of typical feature values.
         . For a new example, compute the probability p(x) of observing it.
         . If p(x) < epsilon (a small threshold), flag it as an anomaly.
+
+2. What is the Gaussian (Normal) Distribution?
+    * Also known as the bell-shaped distribution.
+    * Defined by two parameters: mean (mu: μ) and variance (sigma²: σ²).
+    * Probability of x follows the formula: p(x) = 1 / (sqrt(2 * pi * σ²)) * e^(-(x - μ)² / (2 * σ²)), where:
+        . μ is the mean
+        . σ² is the variance
+        . σ is the standard deviation
+
+3. How μ and σ Affect the Distribution:
+    * Changing μ shifts the center of the curve.
+    * Changing σ adjusts the width.
+    * Area under the curve is always 1 (total probability = 1).
+
+4. Fitting a Gaussian to Training Data:
+    * For m training examples x₁, ..., xₘ:
+        . Estimate μ = (1/m) ∑ xᵢ
+        . Estimate σ² = (1/m) ∑ (xᵢ - μ)²
+
+    * These are the maximum likelihood estimates.
+    * Gives a Gaussian distribution that likely fits the data source.
