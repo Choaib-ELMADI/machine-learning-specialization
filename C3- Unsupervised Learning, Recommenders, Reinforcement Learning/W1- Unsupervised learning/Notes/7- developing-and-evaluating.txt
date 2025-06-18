@@ -1,0 +1,25 @@
+1. Why Evaluation Matters?
+    * Making decisions (changing features, tuning ε, ...) is easier with a way to evaluate performance.
+    * "Real number evaluation" helps track whether changes improve the algorithm.
+
+2. Using Labeled Anomalies:
+    * While anomaly detection is mostly unsupervised, a few labeled anomalies (with y = 1) can help evaluate the model.
+    * Normal examples are labeled y = 0.
+
+3. Training, Cross-Validation, and Test Sets:
+    * Training set: Unlabeled normal data (6000 good engines).
+    * Cross-validation set: Mix of normal and a few known anomalies (2000 normal + 10 anomalies).
+    * Test set: Another mix (2000 normal + 10 anomalies) for final evaluation.
+
+4. Tuning the Model:
+    * Train the Gaussian model on the training set.
+    * Use cross-validation to adjust ε and features based on detection performance.
+    * Goal: Catch anomalies while minimizing false alarms.
+
+5. Metrics for Skewed Data:
+    * When anomalies are rare, accuracy is misleading.
+    * Use:
+        . Precision
+        . Recall
+        . F1 score
+        . True / false positives / negatives
