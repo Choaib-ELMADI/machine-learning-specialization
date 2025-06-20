@@ -1,0 +1,19 @@
+1. Using Item Features:
+    * Extend recommender system using known features for each item.
+
+2. Predicting User Ratings:
+    * Use a linear model for each user to predict ratings:  w(j) * X(i) + b(j).
+    * Each user gets their own parameter vector w(j) and bias b(j).
+
+3. Cost Function for a Single User:
+    * Define a cost function J(w(j), b(j)) using mean squared error:
+        . J(w(j), b(j)) = (1 / (2 * m(j))) * Σ [ (w(j)·X(i) + b(j) - y(i,j))² ] + regularization
+
+    * Add L2 regularization to reduce overfitting:
+        . λ / (2 * m(j)) * Σ w(j)²
+
+4. Generalizing to All Users:
+    * Extend the cost function to sum over all users:
+        . Total cost = Σ from j=1 to nᵤ of J(w(j), b(j))
+
+    * Use optimization (gradient descent) to minimize this cost and learn parameters for all users.
