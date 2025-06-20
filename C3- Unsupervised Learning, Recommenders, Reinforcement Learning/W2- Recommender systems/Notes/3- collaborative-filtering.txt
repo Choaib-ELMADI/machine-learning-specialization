@@ -1,0 +1,33 @@
+1. Motivation:
+    * Previous models used known item features (romance, action, ...).
+    * What if we don't know these features? Can we learn them from user ratings?
+
+2. Idea of Learning Features:
+    * Assume we have trained parameters (w(j), b(j)) for each user.
+    * Use user ratings to infer features x(i) for each item.
+
+3. Predicting Ratings and Cost Function for x(i):
+    * Predict user j's rating on movie i as: w(j) * x(i) + b(j).
+    * Create a cost function to minimize squared error between predicted and actual ratings for movie i.
+    * Only include terms where user j has rated movie i (r(i,j) = 1).
+    * Add regularization on x(i) to avoid overfitting.
+
+4. Learning Features for All Movies:
+    * Extend cost to sum over all items (movies).
+    * Learn all x(i) values using optimization like gradient descent.
+
+5. Combined Collaborative Filtering Cost Function:
+    * Combine:
+        . Cost for learning user parameters (w, b)
+        . Cost for learning item features x(i)
+    * Overall cost sums over all user-item pairs with a rating (r(i,j)=1).
+    * Add regularization for both w(j) and x(i).
+
+6. Optimization with Gradient Descent:
+    * Minimize total cost function with respect to w, b, and x.
+    * Update all three parameter sets using gradient descent.
+
+7. Key Insight:
+    * x (item features) are not given - they're learned as part of training.
+    * Collaborative filtering works because many users rate the same items.
+    * Shared data across users helps infer what each item "means".
