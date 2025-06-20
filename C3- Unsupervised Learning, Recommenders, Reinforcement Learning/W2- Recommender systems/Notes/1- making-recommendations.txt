@@ -1,0 +1,8 @@
+1. Importance of Recommendation Systems:
+    * Widely used in online platforms like Amazon, Netflix, food delivery apps...
+    * Major driver of user engagement and sales for many companies.
+
+2. Recommendation Strategy:
+    * Uses previous user behavior (ratings) to predict preferences.
+    * Focus on predicting the ratings of items users haven't rated yet.
+    * Recommend items that are predicted to receive high ratings.
