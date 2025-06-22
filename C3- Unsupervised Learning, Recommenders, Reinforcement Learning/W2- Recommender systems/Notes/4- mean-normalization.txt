@@ -1,0 +1,26 @@
+1. Why Use Mean Normalization?
+    * Helps collaborative filtering algorithm make better predictions.
+    * Especially useful for new users who haven't rated any movies.
+    * Also improves runtime efficiency and convergence speed.
+
+2. The Problem without Normalization:
+    * If a user hasn't rated anything, the cost function ignores their parameters.
+    * Regularization drives "w" and "b" toward zero.
+    * Prediction for all movies becomes 0 — an unrealistic rating.
+
+3. How Mean Normalization Works:
+    * Compute average rating μ(i) for each movie i (only from users who rated it).
+    * Subtract μ(i) from each rating y(i,j) to normalize ratings.
+    * Train the model on these normalized ratings to learn w(j), b(j), and x(i).
+    * When making predictions, compute: w(j) * x(i) + b(j) + μ(i)
+    * This ensures predicted ratings return to the original scale.
+
+4. Effect on New Users:
+    * For a user with w = [0, 0] and b = 0: Prediction becomes just the movie's average μ(i).
+    * Gives more reasonable default predictions for users with few or no ratings.
+
+5. Row vs. Column Normalization:
+    * Row normalization (user-wise) is used to handle new users.
+    * Column normalization (movie-wise) would help with new movies.
+    * But new users are more common / important than brand-new movies.
+    * Therefore, row normalization is preferred in practice.
