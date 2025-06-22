@@ -1,0 +1,11 @@
+1. Why TensorFlow for Collaborative Filtering?
+    * Known for neural networks, but also supports other ML algorithms.
+    * TensorFlow's auto-differentiation (Auto Diff) computes gradients automatically.
+    * Removes the need to manually derive cost function gradients.
+
+2. Using Auto Diff in TensorFlow:
+    * Define variables (w = tf.Variable(3.0)) to optimize.
+    * Use "tf.GradientTape()" to track operations and compute gradients.
+    * Compute cost J inside the tape block.
+    * Use "[dJdw] = tape.gradient(J, [parameters])" to get gradients.
+    * Update variables using "w.assign_add(-alpha * dJdw)" or an optimizer like Adam: "optimizer.apply_gradients()"
