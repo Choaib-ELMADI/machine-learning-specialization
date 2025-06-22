@@ -1,0 +1,20 @@
+1. Finding Related Items with Collaborative Filtering:
+    * Many websites suggest similar items when viewing a product.
+    * Collaborative filtering helps identify related items by learning a feature vector x(i) for each item.
+    * Though individual features are hard to interpret, the overall vector captures item characteristics.
+    * To find items related to item i:
+        . Compute squared distance between x(i) and other x(k)
+        . Find items k with smallest distances
+    * This method allows you to suggest, for any item, other items with similar learned features.
+
+2. Limitations of Collaborative Filtering:
+    * Cold Start Problem:
+        . New item: Few or no ratings → hard to recommend.
+        . New user: Few ratings → system lacks enough data to make good predictions.
+        . Mean normalization can help, but it doesn't fully solve the problem.
+
+    * No Use of Side Information:
+        . Collaborative filtering ignores extra info about items or users.
+        . Examples of useful item info: Genre, actors, budget, studio
+        . Examples of useful user info: Age, location, gender, device type, browser
+        . These features can improve recommendations, but collaborative filtering doesn't use them.
