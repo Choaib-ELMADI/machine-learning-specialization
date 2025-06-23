@@ -1,0 +1,30 @@
+1. Challenge of Scale:
+    * Recommender systems often deal with catalogs of thousands to tens of millions of items (movies, ads, songs, products).
+    * Running inference on all items for every user is computationally infeasible.
+
+2. Two-Step Architecture:
+    * Retrieval Step:
+        . Quickly select a broad set of plausible items (hundreds) from the entire catalog.
+        . Methods:
+            - Retrieve top-k similar items to recently watched items using item vectors (pre-computed).
+            - Retrieve top items in the user's favorite genres.
+            - Add top items trending in the user's country.
+        . Goal: Ensure good coverage.
+
+    * Ranking Step:
+        . Use the learned neural network model to score retrieved items more accurately.
+        . Feed user feature vector vᵤ, item vector vₘ into the model to predict rating or interaction likelihood.
+        . Rank items by predicted score and present the best to the user.
+        . Optimized for accuracy.
+
+3. Efficiency Optimization:
+    * Pre-compute all item vectors vₘ.
+    * At runtime, compute the user vector vᵤ once.
+    * Then compute inner product vᵤ * vₘ only for the retrieved items (hundreds), not the full catalog.
+
+4. Retrieval Size Trade-off:
+    * Larger retrieval sets → better performance (more good candidates).
+    * But slows down computation.
+    * Recommendation:
+        . Run offline experiments to find optimal retrieval count (100, 500, 1000, ...).
+        . Check if retrieving more improves model score significantly.
