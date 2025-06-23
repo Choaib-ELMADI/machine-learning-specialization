@@ -1,0 +1,25 @@
+1. What is Content-Based Filtering?
+    * A different approach from collaborative filtering.
+    * Recommends items based on:
+        . Features of the user
+        . Features of the item
+    * Goal: Find matches between users and items using their respective features.
+
+2. Collaborative Filtering vs. Content-Based Filtering:
+    * Collaborative Filtering:
+        . Uses user-item rating patterns (who rated what and how).
+        . Learns parameters (like w(j) and b(j)) from known ratings.
+    * Content-Based Filtering:
+        . Uses explicit features of users and items.
+        . Learns representations from those features to make predictions.
+
+3. How Content-Based Filtering Works?
+    * Define:
+        . xᵤ(j): Raw features of user j.
+        . xₘ(i): Raw features of movie i.
+    * Transform features into vectors:
+        . vᵤ(j): Vector representing user j's preferences.
+        . vₘ(i): Vector representing movie i's characteristics.
+    * Prediction:
+        . Rating predicted as: vᵤ(j) * vₘ(i)
+        . Both vᵤ and vₘ must be same size, even if original features differ in size.
