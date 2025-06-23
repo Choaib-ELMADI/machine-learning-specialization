@@ -1,0 +1,22 @@
+1. Overview:
+    * Content-based filtering can be built using deep learning.
+    * Uses feature vectors of users and items to make predictions.
+
+2. Architecture:
+    * User Network:
+        . Takes user features as input.
+        . Outputs a vector vᵤ representing the user.
+    * Movie (Item) Network:
+        . Takes movie features as input.
+        . Outputs a vector vₘ representing the movie.
+    * Prediction:
+        . Predicted rating = dot product of vᵤ and vₘ.
+        . Can handle both regression (star ratings) and binary classification (like / favorite).
+        . For binary labels, apply sigmoid to vᵤ * vₘ.
+
+3. Training the Model:
+    * Combine both networks in a single model for end-to-end training.
+    * Cost function: squared error between predicted and actual ratings (y(i,j)).
+    * Sum over all user-item pairs where a rating exists.
+    * Use gradient descent or similar optimization to train parameters of both networks.
+    * Add regularization to prevent overfitting.
