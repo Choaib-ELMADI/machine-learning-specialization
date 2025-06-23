@@ -1,0 +1,20 @@
+1. Model Structure in TensorFlow:
+    * Two neural networks: one for user features, one for item (movie) features.
+    * Both built using "tf.keras.models.Sequential" with dense layers and ReLU activations.
+    * Final output layer in each network produces a n-dimensional embedding.
+
+2. Feature Processing and Normalization:
+    * User and item features are extracted and passed through their respective networks.
+    * Output vectors vᵤ (user) and vₘ (movie) are normalized to unit length (L2 norm).
+    * TensorFlow's "tf.linalg.l2_normalize" is used for this step.
+
+3. Computing Predictions:
+    * Prediction = dot product of vᵤ and vₘ.
+    * Implemented using "tf.keras.layers.Dot".
+    * This produces a scalar output representing the predicted rating.
+
+4. Model Compilation and Training:
+    * The model is wrapped using the Keras functional API.
+    * Inputs: user and item features.
+    * Output: dot product of normalized vectors.
+    * Cost function used: "tf.keras.losses.MeanSquaredError()".
