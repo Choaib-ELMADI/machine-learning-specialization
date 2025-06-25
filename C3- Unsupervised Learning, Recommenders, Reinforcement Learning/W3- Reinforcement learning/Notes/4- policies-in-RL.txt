@@ -1,0 +1,18 @@
+1. What is a Policy (π)?
+    * A function that maps a state (S) to an action (A).
+    * Written as: π(S) = A
+    * Tells the agent what action to take in each state.
+
+2. Examples of Policies:
+    * Always go to the nearer reward.
+    * Always go to the larger reward.
+    * Go left unless you're one step away from the smaller reward, then go right.
+    * Any consistent mapping of states to actions is considered a valid policy.
+
+3. Goal of Reinforcement Learning:
+    * To learn an optimal policy π that maximizes the return from every state.
+    * π should choose actions that lead to the highest possible total reward over time.
+
+4. Terminology:
+    * "Policy" is the standard term, though "controller" might be more intuitive.
+    * Widely accepted in the RL community: π = agent's behavior strategy.
