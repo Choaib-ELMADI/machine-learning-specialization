@@ -1,0 +1,28 @@
+1. What is Reinforcement Learning?
+    * A branch of machine learning focused on learning by interaction.
+    * Unlike supervised learning, RL does not require labeled input-output pairs.
+    * The agent learns what to do, not how to do it, through trial and error and rewards.
+
+2. Real-World RL Example (Autonomous Helicopter):
+    * A Stanford helicopter was trained using RL to perform stunts like flying upside down.
+    * State = helicopter's position, orientation, speed, ...
+    * Action = how to move control sticks to keep it balanced.
+    * Instead of hardcoding actions, RL learns them from experience.
+
+3. Rewards and Learning Process:
+    * Inspired by training a dog:
+        . "Good dog" (positive reward) when behavior is good.
+        . "Bad dog" (negative reward) when behavior is bad.
+
+    * Helicopter example:
+        . +1 reward per second flying well.
+        . -1000 reward for crashing.
+
+    * The RL agent maximizes cumulative reward over time.
+
+4. Applications of Reinforcement Learning:
+    * Robotics - like training a robotic dog to cross obstacles.
+    * Factory operations - optimizing layouts and workflows.
+    * Finance - sequencing trades efficiently to minimize losses.
+    * Games - mastering complex games like Chess, Go, and Bridge.
+    * Simulation - practical example landing a lunar lander.
