@@ -1,0 +1,28 @@
+1. What is the Return?
+    * The total accumulated reward an agent receives over time.
+    * Future rewards are weighted less using a discount factor (Gamma γ).
+    * Encourages faster rewards and penalizes long delays.
+
+2. Discount Factor (Gamma):
+    * A value slightly less than 1 (0.9, 0.99) or lower for illustrations (0.5).
+    * Makes the agent slightly "impatient" - prefers rewards sooner.
+    * Weighs future rewards:
+        . Return = R1 + γ¹*R2 + γ²*R3 + γ³*R4 + ...
+
+3. Mars Rover Example:
+    * Always going left from state 4 (with Gamma = 0.5):
+        . State 4 → 3 → 2 → 1 (reward = 100)
+        . Return = 0 + 0 + 0 + 0.5³*100 = 12.5
+
+    * Always going right from state 4 (with Gamma = 0.5):
+        . State 4 → 5 → 6 (reward = 40)
+        . Return = 0 + 0 + 0.5²*40 = 10
+
+4. Flexible Action Strategies:
+    * Instead of always left or right, choose based on current state:
+        . Go left in states 2, 3, 4
+        . Go right in state 5
+
+5. Negative Rewards and Time Preference:
+    * Discounting helps delay bad outcomes.
+    * Agent is incentivized to delay penalties into the future.
