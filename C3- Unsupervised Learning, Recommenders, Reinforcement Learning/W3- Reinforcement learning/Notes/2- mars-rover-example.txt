@@ -1,0 +1,28 @@
+1. Mars Rover Example for Reinforcement Learning:
+    * A simplified environment with 6 discrete states (locations on Mars).
+    * The rover starts in a specific state and chooses actions to move left or right.
+    * Goal: reach a terminal state with high reward.
+
+2. States, Actions, and Rewards:
+    * State = rover's current position (S1 to S6).
+    * Action = move left or right.
+    * Reward:
+        . State 1: +100 (most valuable)
+        . State 6: +40 (less valuable)
+        . States 2-5: 0 (not interesting)
+
+3. Terminal States and Episode End:
+    * Reaching state 1 or 6 ends the episode.
+    * No further rewards are given after reaching a terminal state.
+    * Example:
+        . Going left from state 4: → state 3 → state 2 → state 1 → get 100.
+        . Going right: → state 5 → state 6 → get 40.
+
+4. Reinforcement Learning Components:
+    * At each time step:
+        . Current state (S)
+        . Action taken (A)
+        . Reward received (R(S)) - tied to the current state
+        . New state reached (S')
+
+    * These 4 elements (S, A, R(S), S') are the foundation of RL algorithms.
