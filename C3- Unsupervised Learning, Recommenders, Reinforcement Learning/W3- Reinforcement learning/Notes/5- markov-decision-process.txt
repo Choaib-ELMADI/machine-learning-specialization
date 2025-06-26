@@ -1,0 +1,14 @@
+1. Key Components of Reinforcement Learning:
+    * State (S): the current situation the agent is in.
+    * Action (A): the possible moves the agent can take.
+    * Reward (R(S)): feedback signal from the environment.
+    * Discount Factor (Gamma): downweights future rewards.
+    * Return: total discounted reward over time.
+    * Policy (π): function that maps a state to an action.
+
+2. Markov Decision Process (MDP):
+    * The formal name for this RL setup.
+    * "Markov" = next state depends only on the current state and action, not the full history.
+    * Visualized as:
+        . Agent in state S takes action A (π(S) = A).
+        . Environment responds with next state S' and reward R.
