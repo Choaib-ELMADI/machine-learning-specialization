@@ -1,0 +1,11 @@
+1. What is the State-Action Value Function?
+    * Denoted as Q(S, A), also called the Q-function.
+    * It gives the return starting from state S, taking action A once, and then following the optimal policy afterward.
+    * Although the definition seems circular (needs the optimal policy), we'll learn algorithms to compute Q(S, A) even before knowing the optimal policy.
+
+2. How to Derive the Optimal Policy:
+    * For any state S, the best action is:
+        . A = maxₐ Q(S, A)
+        . This gives the action that yields the highest possible return.
+
+    * Once Q(S, A) is known, π(S) = maxₐ Q(S, A) becomes the optimal policy.
