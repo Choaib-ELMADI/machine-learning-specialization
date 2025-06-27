@@ -1,0 +1,21 @@
+1. Purpose of the Bellman Equation:
+    * Helps compute Q(S, A), the state-action value function.
+    * Decomposes the total return into:
+        . Immediate reward: R(S)
+        . Future rewards: γ * maxₐ' Q(S', A')
+
+    * The best possible return from state S' is: maxₐ' Q(S', A')
+    * Equation: Q(S, A) = R(S) + γ * maxₐ' Q(S', A')
+
+2. Notation Recap:
+    * S: current state
+    * A: action taken in state S
+    * S': next state reached after taking action A
+    * A': future action in next state S'
+    * R(S): reward received at current state
+    * γ: discount factor
+
+3. Key Takeaways:
+    * Bellman equation allows recursive computation of Q-values.
+    * Even without knowing the full optimal policy, you can iteratively update Q(S, A).
+    * Powerful foundation for algorithms like "Value Iteration" and "Q-Learning".
