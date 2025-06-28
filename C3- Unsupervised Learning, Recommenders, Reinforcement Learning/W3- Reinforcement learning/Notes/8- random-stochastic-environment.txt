@@ -1,0 +1,29 @@
+1. Stochastic Environments:
+    * In some RL applications, taking action A in state S may not always lead to the same next state.
+    * Example:
+        . Mars Rover may slip and end up in the wrong direction.
+        . A command to go LEFT might succeed with 0.9 probability, but fail with 0.1 and go RIGHT.
+
+2. Consequences of Stochasticity:
+    * Given a policy π, repeating it can produce different sequences of states and rewards.
+    * Example:
+        . First run: S4 → S3 → S2 → S1 → Reward = 100
+        . Second run: S4 → S3 → S4 → S3 → S2 → S1 → Reward = 100 (but delayed)
+        . Third run: S4 → S5 → S6 → Reward = 40
+
+    * These sequences are random, so we focus on "expected return", not a single return.
+
+3. Expected Return:
+    * Instead of maximizing R₁ + γ*R₂ + γ²*R₃ + ..., we maximize:
+        . E[R₁ + γ*R₂ + γ²*R₃ + ...]
+        . E denotes the expected value (average over many runs)
+
+    * The RL algorithm's job is to find a policy π that maximizes the expected return.
+
+4. Adjusted Bellman Equation (Stochastic):
+    * In deterministic environments:
+        . Q(S, A) = R(S) + γ * maxₐ' Q(S', A')
+
+    * In stochastic environments:
+        . Q(S, A) = R(S) + γ * E[maxₐ' Q(S', A')]
+        . Since S' is random, we take an expectation over S'.
