@@ -1,0 +1,31 @@
+1. Continuous State Spaces:
+    * In earlier examples like the Mars Rover, the state S was discrete (one of six states).
+    * In real-world robotic control problems, S is often continuous.
+
+2. Example - Self-driving Car / Truck:
+    * State S may include:
+        . X → position in horizontal direction
+        . Y → position in vertical direction
+        . Θ → orientation angle
+        . Ẋ → speed in X direction
+        . Ẏ → speed in Y direction
+        . Θ̇ → rate of change of orientation
+
+    * S is now a vector of 6 continuous values.
+
+3. Example - Autonomous Helicopter:
+    * To describe helicopter's position:
+        . X → north-south
+        . Y → east-west
+        . Z → altitude
+
+    * To describe orientation:
+        . Φ (Phi)   → roll
+        . Θ (Theta) → pitch
+        . Ω (Omega) → yaw
+
+    * To describe velocity and angular velocity:
+        . Ẋ, Ẏ, Ż → linear velocity
+        . Φ̇, Θ̇, Ω̇ → angular velocity
+
+    * So S is a vector of 12 real-valued numbers.
