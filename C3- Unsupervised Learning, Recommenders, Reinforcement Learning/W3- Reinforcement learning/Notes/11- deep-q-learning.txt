@@ -32,3 +32,12 @@
         . Evaluate Q(S, A) for all 4 possible A
         . Choose: A = maxₐ Q(S, A)
         . This becomes the action the agent takes
+
+7. Efficient Network Architecture (Multi-output DQN):
+    * Problem with previous architecture:
+        . Required 4 separate forward passes (one per action) to compute Q(S, A)
+
+    * Solution:
+        . Use a single neural network that:
+            - Inputs: state S (8 values)
+            - Outputs: Q(S, A) for all 4 possible actions simultaneously
