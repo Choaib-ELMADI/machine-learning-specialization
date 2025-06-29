@@ -1,0 +1,34 @@
+1. Goal of DQN:
+    * Learn a Q-function that estimates the value of taking action A in state S.
+    * Q(S, A) ≈ expected return starting from S, taking A, and following π.
+    * Use a neural network to approximate Q(S, A) and extract a good policy from it.
+
+2. Neural Network Architecture:
+    * Input: 12 units (X)
+    * Hidden layers
+    * Output: scalar value → Q(S, A)
+    * Loss: Mean Squared Error between predicted Q(S, A) and target Y
+
+3. Bellman Target Y:
+    * For each tuple (S, A, R(S), S'), compute:
+        . Y = R(S) + γ * maxₐ' Q(S', A')
+
+4. Creating Training Examples:
+    * For each tuple (S, A, R(S), S'):
+        . Xᵢ = [S, A]                     (input)
+        . Yᵢ = R(S) + γ * maxₐ' Q(S', A') (target)
+
+5. Training Loop:
+    * Initialize Q-network randomly
+    * Repeat:
+        . Collect new tuples (S, A, R(S), S')
+        . Update replay buffer
+        . Sample mini-batches of (X, Y) pairs
+        . Train Q-network to minimize error between predicted Q(S, A) and target Y
+        . Replace old Q-network with new one: Q ← Qₙₑᵤ
+
+6. Policy Extraction:
+    * At any state S:
+        . Evaluate Q(S, A) for all 4 possible A
+        . Choose: A = maxₐ Q(S, A)
+        . This becomes the action the agent takes
