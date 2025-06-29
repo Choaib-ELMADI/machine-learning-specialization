@@ -1,0 +1,40 @@
+1. Lunar Lander Overview:
+    * A classic RL problem: land a simulated spacecraft safely between two flags.
+    * You control the lander by choosing one of four discrete actions A at each time step:
+        . A = "nothing" → do nothing (fall with gravity)
+        . A = "left"    → fire left thruster (push right)
+        . A = "main"    → fire main engine (push upward)
+        . A = "right"   → fire right thruster (push left)
+
+2. State Space S:
+    * Each state S is a vector of 8 values:
+        . X → horizontal position
+        . Y → vertical position
+        . Ẋ → horizontal velocity
+        . Ẏ → vertical velocity
+        . Θ → angle of tilt
+        . Θ̇ → angular velocity
+        . L → 1 if left leg touches ground, 0 otherwise
+        . R → 1 if right leg touches ground, 0 otherwise
+
+3. Reward Function R(S):
+    * Main goal: land safely and efficiently
+    * Reward structure:
+        . +100 to +140    → for landing on pad (based on how centered it is)
+        . +10             → for each leg (L, R) touching ground
+        . +100            → soft landing (not crash)
+        . -100            → crash penalty
+        . Positive reward → moving closer to pad
+        . Negative reward → drifting away from pad
+        . -0.3            → each time the main engine is fired
+        . -0.03           → each time the left or right thrusters are fired
+
+4. Objective:
+    * Learn a policy π to maximize:
+        . Return = R₁ + γ*R₂ + γ²*R₃ + ...
+
+    * Use high discount factor:
+        . γ = 0.985 (emphasize long-term reward)
+
+    * Use deep reinforcement learning to approximate π:
+        . Neural network will map state S to action A
