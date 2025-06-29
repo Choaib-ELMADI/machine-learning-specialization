@@ -1,0 +1,23 @@
+1. Epsilon-Greedy Policy:
+    * While still learning Q(S, A), we must choose actions to explore the environment.
+    * Need a strategy to balance:
+        . Exploitation --> pick best-known action (maximize Q)
+        . Exploration  --> try new or less-known actions (gain experience)
+
+2. Option 1 (Greedy Only):
+    * Always choose action A that maximizes Q(S, A).
+    * If Q was poorly initialized, agent might never try good actions.
+
+3. Option 2 (Epsilon-Greedy):
+    * Most of the time (1 - ε), pick the best action: A = maxₐ Q(S, A).
+    * Occasionally (ε), pick a random action to explore.
+
+4. Exploration vs. Exploitation:
+    * Exploration  --> try random actions to learn.
+    * Exploitation --> use current Q to pick best-known action.
+    * Epsilon-Greedy mixes both strategies.
+
+5. Adaptive Epsilon:
+    * Start with ε = 1.0 --> full exploration (random actions).
+    * Gradually decay ε to a small value (0.01):
+        . Encourages more exploitation over time (best action).
