@@ -45,6 +45,8 @@ Learn how to work with data without labels, personalize recommendations, and bui
 - `Week 2|` Recommender systems
 - `Week 3|` Reinforcement learning
 
+**Earned Certificate**: [Unsupervised Learning, Recommenders, Reinforcement Learning](https://coursera.org/share/71aa2bcf08739a91cd90e67c57c973dc)
+
 ## Learning Goals
 
 By completing this specialization, I aim to:
